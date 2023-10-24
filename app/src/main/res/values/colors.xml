@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="uokEventsFont">#000E89</color>     <!--Pasindu Bhanuka-->
+    <color name="titleBG">#3C0089</color>           <!--Pasindu Bhanuka-->
+    <color name="eventNameTopic">#FFE5B3</color>    <!--Pasindu Bhanuka-->
+    <color name="buttonBG">#D47F00</color>
 </resources>

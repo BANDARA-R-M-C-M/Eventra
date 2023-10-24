@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6D7FF">
+
+    <LinearLayout
+        tools:ignore="MissingConstraints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E6D7FF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:src="@drawable/mobile_app_logo_transparent" />
+
+            <TextView
+                android:id="@+id/txtUOKEvents"
+                android:layout_width="121dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="10px"
+                android:paddingTop="5dp"
+                android:text="UOK\nEvents"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgRefresh"
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="20dp"
+                android:src="@drawable/refresh" />
+
+            <ImageView
+                android:id="@+id/imgMenu"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:src="@drawable/menu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#009688">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="ADMIN"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/events"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:padding="35dp"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:background="@drawable/rounded_background_linearlayout"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:id="@+id/description1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="20px"
+                    android:paddingRight="20px">
+
+                    <TextView
+                        android:id="@+id/event1Title"
+                        android:layout_width="174dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="0px"
+                        android:layout_weight="1"
+                        android:paddingLeft="30px"
+                        android:paddingTop="30px"
+                        android:paddingRight="30px"
+                        android:paddingBottom="0px"
+                        android:text="Fasionista 2.0"
+                        android:textColor="@color/eventNameTopic"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="354dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+
+                        android:paddingLeft="30px"
+                        android:paddingRight="30px"
+                        android:text="Fashionista, is the first ever event organized for the fashion oriented young..."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btnDetails11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/buttonBG"
+                        android:backgroundTintMode="src_in"
+                        android:hapticFeedbackEnabled="false"
+                        android:insetTop="0dp"
+                        android:insetBottom="30dp"
+                        android:text="See More"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/buttonBG"
+                        android:textColorLink="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_background_linearlayout"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:id="@+id/description1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="20px"
+                    android:paddingRight="20px">
+
+                    <TextView
+                        android:id="@+id/event1Title"
+                        android:layout_width="174dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="0px"
+                        android:layout_weight="1"
+                        android:paddingLeft="30px"
+                        android:paddingTop="30px"
+                        android:paddingRight="30px"
+                        android:paddingBottom="0px"
+                        android:text="Fasionista 2.0"
+                        android:textColor="@color/eventNameTopic"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="354dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+
+                        android:paddingLeft="30px"
+                        android:paddingRight="30px"
+                        android:text="Fashionista, is the first ever event organized for the fashion oriented young..."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btnDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/buttonBG"
+                        android:backgroundTintMode="src_in"
+                        android:hapticFeedbackEnabled="false"
+                        android:insetTop="0dp"
+                        android:insetBottom="30dp"
+                        android:text="See More"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/buttonBG"
+                        android:textColorLink="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_background_linearlayout"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="20px"
+                    android:paddingRight="20px">
+
+                    <TextView
+                        android:id="@+id/event1Title"
+                        android:layout_width="174dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="0px"
+                        android:layout_weight="1"
+                        android:paddingLeft="30px"
+                        android:paddingTop="30px"
+                        android:paddingRight="30px"
+                        android:paddingBottom="0px"
+                        android:text="Fasionista 2.0"
+                        android:textColor="@color/eventNameTopic"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="354dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+
+                        android:paddingLeft="30px"
+                        android:paddingRight="30px"
+                        android:text="Fashionista, is the first ever event organized for the fashion oriented young..."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btnDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/buttonBG"
+                        android:backgroundTintMode="src_in"
+                        android:hapticFeedbackEnabled="false"
+                        android:insetTop="0dp"
+                        android:insetBottom="30dp"
+                        android:text="See More"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/buttonBG"
+                        android:textColorLink="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_background_linearlayout"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:id="@+id/description1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="20px"
+                    android:paddingRight="20px">
+
+                    <TextView
+                        android:id="@+id/event1Title"
+                        android:layout_width="174dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="0px"
+                        android:layout_weight="1"
+                        android:paddingLeft="30px"
+                        android:paddingTop="30px"
+                        android:paddingRight="30px"
+                        android:paddingBottom="0px"
+                        android:text="Fasionista 2.0"
+                        android:textColor="@color/eventNameTopic"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="354dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+
+                        android:paddingLeft="30px"
+                        android:paddingRight="30px"
+                        android:text="Fashionista, is the first ever event organized for the fashion oriented young..."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btnDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/buttonBG"
+                        android:backgroundTintMode="src_in"
+                        android:hapticFeedbackEnabled="false"
+                        android:insetTop="0dp"
+                        android:insetBottom="30dp"
+                        android:text="See More"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/buttonBG"
+                        android:textColorLink="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/event1"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_background_linearlayout"
+                android:orientation="horizontal"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:id="@+id/description1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="20px"
+                    android:paddingRight="20px">
+
+                    <TextView
+                        android:id="@+id/event1Title"
+                        android:layout_width="174dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="0px"
+                        android:layout_weight="1"
+                        android:paddingLeft="30px"
+                        android:paddingTop="30px"
+                        android:paddingRight="30px"
+                        android:paddingBottom="0px"
+                        android:text="Fasionista 2.0"
+                        android:textColor="@color/eventNameTopic"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="354dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+
+                        android:paddingLeft="30px"
+                        android:paddingRight="30px"
+                        android:text="Fashionista, is the first ever event organized for the fashion oriented young..."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btnDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/buttonBG"
+                        android:backgroundTintMode="src_in"
+                        android:hapticFeedbackEnabled="false"
+                        android:insetTop="0dp"
+                        android:insetBottom="30dp"
+                        android:text="See More"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/buttonBG"
+                        android:textColorLink="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
